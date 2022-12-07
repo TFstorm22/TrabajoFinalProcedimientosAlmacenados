@@ -37,6 +37,7 @@ CREATE TABLE `dept` (
 
 LOCK TABLES `dept` WRITE;
 /*!40000 ALTER TABLE `dept` DISABLE KEYS */;
+INSERT INTO `dept` VALUES (1,'Irtyshskiy','67405-835'),(2,'Petaling Jaya','60429-243'),(3,'Xiaocheng','14362-0111'),(4,'Akarakar','53808-0811'),(5,'Shënmëri','60637-015'),(6,'Gentilly','11980-801'),(7,'Naranjito','49288-0921'),(8,'Qo’ng’irot Shahri','0064-1011'),(9,'Bomomani','0597-0185'),(10,'Jackson','48951-1065'),(11,'Yoichi','65044-9972'),(12,'Arcos','48769-112'),(13,'Planaltina','66116-453'),(14,'Bonak','61957-1068');
 /*!40000 ALTER TABLE `dept` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -106,4 +107,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-12-07  0:29:58
+-- Dump completed on 2022-12-07  0:51:06
